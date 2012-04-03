@@ -110,6 +110,8 @@ CDPATH=".:$HOME/Documents/code/:$HOME/Documents/src/lua-5.1.4/:$HOME/Documents/d
 PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/django/:/usr/local/lib/python2.7/dist-packages/pysmell/
 export LUA_CPATH="$HOME/Documents/lib/lualib/?.so;./?.so"
 
+alias cp='cp -i'
+alias mv='mv -i'
 alias lab='ssh -X -p 4010 skyshaw@10.22.41.10'
 alias ser='ssh -p 72 pxt@10.22.41.10'
 alias gvim='gvim -f'
@@ -121,7 +123,7 @@ alias st2dot='python ~/Documents/tools/st2dot.py'
 alias nline='python ~/Documents/tools/nline.py'
 alias sublime='~/Documents/bin/Sublime-Text-2/sublime_text'
 alias tc='javaws $MYPATH/tc/ContestAppletProd.jnlp 1>/dev/null 2>&1'
-alias tcedit='java -jar $MYPATH/tc/KawigiEdit_2.1.jar'
+#alias tcedit='java -jar $MYPATH/tc/KawigiEdit_2.1.jar'
 #alias cdtmp='cd ~/Documents/tmp/'
 #alias cddocs='cd ~/Documents/docs/'
 #alias cdcode='cd ~/Documents/code/'
