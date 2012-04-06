@@ -1,18 +1,20 @@
 
 #use set -x to oupout the command executing
 
-function labtop() {
+function f_link {
     set -x
-    ln -s -i $PWD/bashrc $HOME/.bashrc
-    ln -s -i $PWD/bash_aliases $HOME/.bash_aliases
+    ln -s -i $1 $2
     set +x
 }
 
-function desktop() {
-    set -x
-    ln -s -i $PWD/lab-bashrc $HOME/.bashrc
-    ln -s -i $PWD/bash_aliases $HOME/.bash_aliases
-    set +x
+function f_labtop {
+    f_link $PWD/bashrc $HOME/.bashrc
+    f_link $PWD/bash_aliases $HOME/.bash_aliases
+}
+
+function f_desktop {
+    f_link $PWD/lab-bashrc $HOME/.bashrc
+    f_link $PWD/bash_aliases $HOME/.bash_aliases
 }
 
 USAGE="usage ./install.sh ..."
@@ -21,8 +23,7 @@ USAGE="usage ./install.sh ..."
 if [ $# -ne 1 ]; then
     echo $USAGE
 elif [ $1 = "labtop" ]; then
-    labtop
+    f_labtop
 elif [ $1 = "desktop" ]; then
-    desktop;
+    f_desktop
 fi
-
