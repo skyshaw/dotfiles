@@ -10,11 +10,13 @@ function f_link {
 function f_labtop {
     f_link $PWD/bashrc $HOME/.bashrc
     f_link $PWD/bash_aliases $HOME/.bash_aliases
+    f_link $PWD/tmux.conf $HOME/.tmux.conf
 }
 
 function f_desktop {
     f_link $PWD/lab-bashrc $HOME/.bashrc
     f_link $PWD/bash_aliases $HOME/.bash_aliases
+    f_link $PWD/tmux.conf $HOME/.tmux.conf
 }
 
 USAGE="usage ./install.sh ..."
