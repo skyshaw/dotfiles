@@ -103,7 +103,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 #skyshaw
-CDPATH=".:$HOME/Documents/:$HOME/Documents/docs/:$HOME/Documents/work/"
+CDPATH=".:$HOME/Documents/:$HOME/Documents/docs/:$HOME/Documents/work/:$HOME/Documents/code/"
 PATH=$PATH:/home/skyshaw/Documents/bin/DS-5/bin
 PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/pysmell
 export PATH
