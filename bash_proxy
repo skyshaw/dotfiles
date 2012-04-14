@@ -1,0 +1,6 @@
+export HTTP_PROXY=http://localhost:8086
+export http_proxy=http://localhost:8086
+export HTTPS_PROXY=http://localhost:8086
+export https_proxy=http://localhost:8086
+export FTP_PROXY=http://localhost:8086
+export ftp_proxy=http://localhost:8086
