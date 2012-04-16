@@ -5,6 +5,7 @@ alias dor='ssh -X skyshaw@10.110.23.131'
 alias lab='ssh -X -p 4010 skyshaw@10.22.41.10'
 alias ser1='ssh -p 72 pxt@10.22.41.10'
 alias ser2='ssh -X pxt@192.168.0.27'
+alias armboard='ssh cpl@192.168.2.222'
 
 alias gvim='gvim -f'
 
