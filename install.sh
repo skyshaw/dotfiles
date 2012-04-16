@@ -12,6 +12,7 @@ function install {
     f_link $PWD/bash_aliases $HOME/.bash_aliases
     f_link $PWD/tmux.conf $HOME/.tmux.conf
     f_link $PWD/Xmodmap $HOME/.Xmodmap
+    f_link $PWD/misc/bash_utils $HOME/.bash_utils
 }
 
 #function f_desktop {
