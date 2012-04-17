@@ -120,6 +120,8 @@ if [ -f $HOME/.bash_utils ]; then
     . $HOME/.bash_utils
 fi
 
+set -o vi
+
 
 #alias cp='cp -i'
 #alias mv='mv -i'
