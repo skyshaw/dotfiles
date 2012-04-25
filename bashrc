@@ -109,7 +109,7 @@ export LUA_CPATH="$HOME/Documents/lib/lualib/?.so;./?.so"
 GEM_PATH=/var/lib/gems/1.8/bin/
 CABAL_PATH=/home/skyshaw/.cabal/bin/
 MYPATH=~/Documents/bin
-TOOL_PATH=/home/skyshaw/Documents/tools/
+TOOL_PATH=/home/skyshaw/Documents/tools/:/home/skyshaw/Documents/code/snippets/sh/
 export PATH=$GEM_PATH:$TOOL_PATH:$CABAL_PATH:$PATH
 
 DESKTOP_CDPATH=.:$HOME/Documents/:$HOME/Documents/docs/:$HOME/Documents/work/:$HOME/Documents/code/
