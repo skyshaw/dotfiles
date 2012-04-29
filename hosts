@@ -1,0 +1,73 @@
+127.0.0.1	localhost
+127.0.1.1	skyshaw-ThinkPad-R61
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+203.208.45.200 drive.google.com
+209.85.225.101 docs.google.com
+74.125.227.2 docs.google.com
+74.125.227.2 docs0.google.com
+74.125.227.2 docs1.google.com
+74.125.227.2 docs2.google.com
+74.125.227.2 docs3.google.com
+74.125.227.2 spreadsheets.google.com
+74.125.227.2 spreadsheets0.google.com
+74.125.227.2 spreadsheets1.google.com
+74.125.227.2 spreadsheets2.google.com
+74.125.227.2 spreadsheets3.google.com
+
+74.125.224.97 plus.google.com
+74.125.224.105 plus.google.com
+74.125.224.98 plus.google.com
+74.125.224.104 plus.google.com
+74.125.224.101 plus.google.com
+74.125.224.109 plus.google.com
+74.125.224.96 plus.google.com
+74.125.224.106 plus.google.com
+74.125.224.100 plus.google.com
+74.125.224.110 plus.google.com
+74.125.224.102 plus.google.com
+74.125.224.107 plus.google.com
+74.125.224.99 plus.google.com
+74.125.224.108 plus.google.com
+74.125.224.111 plus.google.com
+74.125.224.103 plus.google.com
+
+
+209.85.175.132 images1-focus-opensocial.googleusercontent.com
+209.85.175.132 images2-focus-opensocia2.googleusercontent.com
+209.85.175.132 s2.googleusercontent.com
+209.85.143.132 lh1.googleusercontent.com
+209.85.175.132 lh1.googleusercontent.com
+209.85.143.132 lh2.googleusercontent.com
+209.85.175.132 lh2.googleusercontent.com
+209.85.143.132 lh3.googleusercontent.com
+209.85.175.132 lh3.googleusercontent.com
+209.85.175.132 lh4.googleusercontent.com
+209.85.143.132 lh4.googleusercontent.com
+209.85.143.132 lh5.googleusercontent.com
+209.85.175.132 lh5.googleusercontent.com
+209.85.143.132 lh6.googleusercontent.com
+209.85.175.132 lh6.googleusercontent.com
+203.208.46.29 picadaweb.google.com
+203.208.46.29 lh1.ggpht.com
+203.208.46.29 lh2.ggpht.com
+203.208.46.29 lh3.ggpht.com
+203.208.46.29 lh4.ggpht.com
+203.208.46.29 lh5.ggpht.com
+203.208.46.29 lh6.ggpht.com
+203.208.46.29 lh6.googleusercontent.com
+203.208.46.29 lh5.googleusercontent.com
+203.208.46.29 lh4.googleusercontent.com
+203.208.46.29 lh3.googleusercontent.com
+203.208.46.29 lh2.googleusercontent.com
+203.208.46.29 lh1.googleusercontent.com
+203.208.46.29 plus.google.com
+203.208.46.29 talkgadget.google.com
+
+209.85.225.101 sites.google.com
