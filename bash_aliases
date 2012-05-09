@@ -23,4 +23,5 @@ alias pdf='evince 1>/dev/null 2>&1'
 alias xpdf='xpdf 1>/dev/null 2>&1'
 alias opendir='gnome-open'
 alias dunzip='unzip -O GBK'
+alias pv='preview.sh'
 
