@@ -14,7 +14,7 @@ alias mysite='cd /home/skyshaw/Documents/code/web/djcode/mysite/'
 
 alias cpplint='python ~/Documents/tools/cpplint.py'
 alias wallproxy='python ~/Documents/bin/wallproxy-plus/local/startup.py'
-alias autowiki='python ~/Documents/tools/autowiki.py'
+alias autowiki='python ~/Documents/code/snippets/py/autowiki.py'
 alias st2dot='python ~/Documents/tools/st2dot.py'
 alias nline='python ~/Documents/tools/nline.py'
 alias sublime='~/Documents/bin/Sublime-Text-2/sublime_text'
