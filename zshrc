@@ -10,8 +10,8 @@ setopt histignorealldups sharehistory
 bindkey -e
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=1000000
+SAVEHIST=1000000
 HISTFILE=~/.zsh_history
 
 # Use modern completion system
@@ -37,3 +37,24 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 setopt auto_cd 
+
+PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/django/:/usr/local/lib/python2.7/dist-packages/pysmell/
+export LUA_CPATH="$HOME/Documents/lib/lualib/?.so;./?.so"
+GEM_PATH=/var/lib/gems/1.8/bin/
+CABAL_PATH=/home/skyshaw/.cabal/bin/
+MYPATH=~/Documents/bin
+TOOL_PATH=/home/skyshaw/Documents/tools/:/home/skyshaw/Documents/code/snippets/sh/
+export PATH=$GEM_PATH:$TOOL_PATH:$CABAL_PATH:$PATH
+
+DESKTOP_CDPATH=.:$HOME/Documents/:$HOME/Documents/docs/:$HOME/Documents/work/:$HOME/Documents/code/
+LAPTOP_CDPATH=.:$HOME/Documents/code/:$HOME/Documents/src/lua-5.1.4/:$HOME/Documents/docs/:$HOME/Documents/
+CDPATH="$DESKTOP_CDPATH:$LAPTOP_CDPATH"
+
+
+if [ -f $HOME/.bash_utils ]; then
+    . $HOME/.bash_utils
+fi
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi

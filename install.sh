@@ -13,6 +13,7 @@ function install {
     f_link $PWD/tmux.conf $HOME/.tmux.conf
     f_link $PWD/Xmodmap $HOME/.Xmodmap
     f_link $PWD/misc/bash_utils $HOME/.bash_utils
+    f_link $PWD/zshrc $HOME/.zshrc
 }
 
 #function f_desktop {

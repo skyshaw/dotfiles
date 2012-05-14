@@ -21,7 +21,7 @@ alias sublime='~/Documents/bin/Sublime-Text-2/sublime_text'
 alias tc='javaws $MYPATH/tc/ContestAppletProd.jnlp 1>/dev/null 2>&1'
 alias pdf='evince 1>/dev/null 2>&1' 
 alias xpdf='xpdf 1>/dev/null 2>&1'
-alias opendir='gnome-open'
+alias op='gnome-open'
 alias dunzip='unzip -O GBK'
 alias pv='preview.sh'
 
