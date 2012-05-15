@@ -120,7 +120,7 @@ if [ -f $HOME/.bash_utils ]; then
     . $HOME/.bash_utils
 fi
 
-set -o vi
+#set -o vi
 
 
 #alias cp='cp -i'
