@@ -5,3 +5,23 @@ function cdn() {
         let depth-=1
     done
 }
+
+function cint() {
+    local USAGE="usage: cint [option]
+                        -c compile and run c program
+                        -cpp compile and run c++ program"
+    local tmpfile=$(mktemp)
+    local cc="gcc"
+    local lang="c"
+    case "$1" in
+    "-cpp" )  cc="g++";
+              lang="c++";
+              ;;
+    "-c"   )
+              ;;
+    *)        echo "$USAGE";
+              return;
+              ;;
+    esac
+    "$cc" -x "$lang" -o "$tmpfile" - && "$tmpfile"
+}
