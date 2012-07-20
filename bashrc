@@ -116,6 +116,7 @@ DESKTOP_CDPATH=.:$HOME/Documents/:$HOME/Documents/docs/:$HOME/Documents/work/:$H
 LAPTOP_CDPATH=.:$HOME/Documents/code/:$HOME/Documents/src/lua-5.1.4/:$HOME/Documents/docs/:$HOME/Documents/
 CDPATH="$DESKTOP_CDPATH:$LAPTOP_CDPATH"
 
+
 if [ -f $HOME/.bash_utils ]; then
     . $HOME/.bash_utils
 fi

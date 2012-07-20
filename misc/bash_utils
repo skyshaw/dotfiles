@@ -25,3 +25,7 @@ function cint() {
     esac
     "$cc" -x "$lang" -o "$tmpfile" - && "$tmpfile"
 }
+
+function google() {
+    xdg-open https://www.google.com
+}
