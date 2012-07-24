@@ -105,6 +105,8 @@ fi
 #export PATH
 
 PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/django/:/usr/local/lib/python2.7/dist-packages/pysmell/
+export PYTHONPATH
+
 export LUA_CPATH="$HOME/Documents/lib/lualib/?.so;./?.so"
 GEM_PATH=/var/lib/gems/1.8/bin/
 CABAL_PATH=/home/skyshaw/.cabal/bin/
