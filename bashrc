@@ -112,11 +112,20 @@ GEM_PATH=/var/lib/gems/1.8/bin/
 CABAL_PATH=/home/skyshaw/.cabal/bin/
 MYPATH=~/Documents/bin
 TOOL_PATH=/home/skyshaw/Documents/tools/:/home/skyshaw/Documents/code/snippets/sh/
-export PATH=$GEM_PATH:$TOOL_PATH:$CABAL_PATH:$PATH
+#GAE_PATH=~/Documents/bin/google_appengine/
+
+export PATH=$GEM_PATH:$TOOL_PATH:$CABAL_PATH:$GAE_PATH:$PATH
 
 DESKTOP_CDPATH=.:$HOME/Documents/:$HOME/Documents/docs/:$HOME/Documents/work/:$HOME/Documents/code/
 LAPTOP_CDPATH=.:$HOME/Documents/code/:$HOME/Documents/src/lua-5.1.4/:$HOME/Documents/docs/:$HOME/Documents/
 CDPATH="$DESKTOP_CDPATH:$LAPTOP_CDPATH"
+
+export GOOS=linux
+export GOARCH=386
+export GOPATH=$HOME/Documents/lib/golib
+export GOROOT=$HOME/Documents/bin/go
+export GOBIN=$GOROOT/bin
+export PATH=$PATH:$GOBIN
 
 
 if [ -f $HOME/.bash_utils ]; then
