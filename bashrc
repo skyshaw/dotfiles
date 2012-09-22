@@ -159,4 +159,3 @@ fi
 #alias cddocs='cd ~/Documents/docs/'
 #alias cdcode='cd ~/Documents/code/'
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
