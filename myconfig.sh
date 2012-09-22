@@ -20,8 +20,10 @@ export GOPATH=$HOME/Documents/bin/golib:$HOME/Documents/code/mygo:$HOME/Document
 export GOROOT=$HOME/Documents/bin/go
 export GOBIN=$HOME/Documents/bin/gobin
 QEMUPATH=~/Documents/bin/qemu
+
 export PATH=$PATH:$GOROOT/bin:$GAE_PATH:$GOBIN:$QEMUPATH/bin
 #GAE_PATH中也有go的可执行文件
+
 
 
 if [ -f $HOME/.bash_utils ]; then
