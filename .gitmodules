@@ -4,3 +4,6 @@
 [submodule "vim"]
 	path = vim
 	url = git@github.com:skyshaw/vimrc.git
+[submodule "ssh"]
+	path = ssh
+	url = git@bitbucket.org:skyshaw/ssh-config.git
