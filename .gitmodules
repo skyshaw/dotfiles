@@ -7,3 +7,6 @@
 [submodule "ssh"]
 	path = ssh
 	url = git@bitbucket.org:skyshaw/ssh-config.git
+[submodule "emacs"]
+	path = emacs
+	url = git@github.com:skyshaw/emacs.git

@@ -8,13 +8,14 @@ alias ser2='ssh -X pxt@192.168.0.27'
 alias armboard='ssh cpl@192.168.2.222'
 
 alias gvim='gvim -f'
+alias emacs='export LC_CTYPE=zh_CN.UTF-8; emacs'
 
 alias mnt-work='sudo mount /dev/sda3 ~/Documents/work'
 alias mysite='cd /home/skyshaw/Documents/code/web/djcode/mysite/'
 
 alias cpplint='python ~/Documents/tools/cpplint.py'
 alias wallproxy='python ~/Documents/bin/wallproxy-plus/local/startup.py'
-alias goagent='python ~/Documents/bin/goagent-goagent-35fc288/local/proxy.py'
+alias goagent='python ~/Documents/bin/goagent-goagent-b881730/local/proxy.py'
 alias autowiki='python ~/Documents/code/snippets/py/autowiki.py'
 alias st2dot='python ~/Documents/tools/st2dot.py'
 alias nline='python ~/Documents/tools/nline.py'
