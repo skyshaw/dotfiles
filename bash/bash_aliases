@@ -15,7 +15,7 @@ alias mysite='cd /home/skyshaw/Documents/code/web/djcode/mysite/'
 
 alias cpplint='python ~/Documents/tools/cpplint.py'
 alias wallproxy='python ~/Documents/bin/wallproxy-plus/local/startup.py'
-alias goagent='python ~/Documents/bin/goagent-goagent-b881730/local/proxy.py'
+alias goagent='python ~/Documents/bin/goagent/local/proxy.py'
 alias autowiki='python ~/Documents/code/snippets/py/autowiki.py'
 alias st2dot='python ~/Documents/tools/st2dot.py'
 alias nline='python ~/Documents/tools/nline.py'
