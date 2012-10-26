@@ -28,4 +28,4 @@ alias xpdf='xpdf 1>/dev/null 2>&1'
 alias op='gnome-open'
 alias dunzip='unzip -O GBK'
 alias prv='preview.sh'
-
+alias vm-mnt='sudo mount -t vboxsf share VM-share'
