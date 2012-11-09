@@ -14,14 +14,11 @@ DESKTOP_CDPATH=.:$HOME/Documents/:$HOME/Documents/docs/:$HOME/Documents/work/:$H
 LAPTOP_CDPATH=.:$HOME/Documents/code/:$HOME/Documents/src/lua-5.1.4/:$HOME/Documents/docs/:$HOME/Documents/
 CDPATH="$DESKTOP_CDPATH:$LAPTOP_CDPATH"
 
-export GOOS=linux
-export GOARCH=386
-export GOPATH=$HOME/Documents/bin/golib:$HOME/Documents/code/mygo:$HOME/Documents/code/mygo2
 export GOROOT=$HOME/Documents/bin/go
-export GOBIN=$HOME/Documents/bin/gobin
+#export GOBIN=$HOME/Documents/bin/gobin
 QEMUPATH=~/Documents/bin/qemu
 
-export PATH=$PATH:$GOROOT/bin:$GAE_PATH:$GOBIN:$QEMUPATH/bin
+export PATH=$PATH:$GOROOT/bin:$GAE_PATH:$QEMUPATH/bin
 #GAE_PATH中也有go的可执行文件
 
 
