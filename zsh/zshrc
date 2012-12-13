@@ -36,3 +36,5 @@ source /home/skyshaw/Documents/etc/dotfiles/myconfig.sh
 
 # Customize to your needs...
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

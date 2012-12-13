@@ -2,13 +2,12 @@ PYTHONPATH=${PYTHONPATH}:/usr/local/lib/python2.7/dist-packages/django/:/usr/loc
 export PYTHONPATH
 
 export LUA_CPATH="$HOME/Documents/lib/lualib/?.so;./?.so"
-GEM_PATH=/var/lib/gems/1.8/bin/
 CABAL_PATH=/home/skyshaw/.cabal/bin/
 MYPATH=~/Documents/bin
 TOOL_PATH=/home/skyshaw/Documents/tools/:/home/skyshaw/Documents/code/snippets/sh/
 GAE_PATH=~/Documents/bin/google_appengine/
 
-export PATH=$GEM_PATH:$TOOL_PATH:$CABAL_PATH:$PATH
+export PATH=$TOOL_PATH:$CABAL_PATH:$PATH
 
 DESKTOP_CDPATH=.:$HOME/Documents/:$HOME/Documents/docs/:$HOME/Documents/work/:$HOME/Documents/code/
 LAPTOP_CDPATH=.:$HOME/Documents/code/:$HOME/Documents/src/lua-5.1.4/:$HOME/Documents/docs/:$HOME/Documents/
