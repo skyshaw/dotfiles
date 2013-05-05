@@ -15,11 +15,9 @@ CDPATH="$DESKTOP_CDPATH:$LAPTOP_CDPATH"
 
 export GOROOT=$HOME/Documents/bin/go
 #export GOBIN=$HOME/Documents/bin/gobin
-QEMUPATH=~/Documents/bin/qemu
-
-export PATH=$PATH:$GOROOT/bin:$GAE_PATH:$QEMUPATH/bin
+QEMUPATH=/home/skyshaw/binarys/qemu-install/bin
+export PATH=$PATH:$GOROOT/bin:$GAE_PATH:$QEMUPATH
 #GAE_PATH中也有go的可执行文件
-
 
 
 if [ -f $HOME/.bash_utils ]; then
